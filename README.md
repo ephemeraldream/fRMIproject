@@ -1,6 +1,6 @@
 # Time Series Classification with Topological Data Analysis
 
-![xxx](www.asdfasdf.com)
+![xxx](https://github.com/ephemeraldream/fRMIproject/blob/main/lands.png)
 
 ## Introduction
 
@@ -12,14 +12,14 @@ We propose a pipeline that begins with open-access multidimensional time series 
 
 ### Data
 
-![xxx](www.asdfasdf.com)
+![xxx](https://github.com/ephemeraldream/fRMIproject/blob/main/2healthy.png)
 
 The dataset comprises 45,152 ECGs from patients, with each ECG having a 17-dimensional time series. To simplify analysis and due to strong correlations between readings, we compress these series into a one-dimensional form.
 
 ### Taken's Time Delay Embedding
 
 
-![xxx](www.asdfasdf.com)
+![xxx](https://github.com/ephemeraldream/fRMIproject/blob/main/1_KZjxg-nN9Zy6v6OvpvXAng.jpg)
 
 
 We transform the series by mapping neighboring points as coordinates in the embedding space, altering the series' "appearance" and revealing its topological features.
@@ -29,6 +29,9 @@ We transform the series by mapping neighboring points as coordinates in the embe
 After topological analysis, we obtain a dataset of persistent entropy, a 2-dimensional vector representing the feature space. We visualize the raw, truncated, and normalized collections of all persistence entropy for all observations, considering the impact of outliers on ML models.
 
 ### Accuracy on Test Data
+
+![xxx](https://github.com/ephemeraldream/fRMIproject/blob/main/truncated.png)
+
 
 We evaluate various models on the raw, truncated, and normalized data structures, using an 80/20 train/test split and 5-fold cross-validation. The SVM with RBK achieves the highest accuracy, demonstrating the potential of learning from topological data.
 
